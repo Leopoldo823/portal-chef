@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base-100: #050014;
+  --color-base-200: #0A0520;
+  --color-base-300: #150D30;
+  --color-base-content: #E8E0FF;
+
+  --color-primary: #7c3aed;
+  --color-primary-content: #ffffff;
+  --color-accent-warm: #f97316;
+  --color-accent-pink: #ec4899;
+  --color-accent-blue: #38bdf8;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-base-100);
+    color: var(--color-base-content);
+    /* typography inherited from next.js geist font via body class */
+  }
+}
